@@ -10,42 +10,6 @@ Tasks:
 
 ---
 
-## Folder overview
-
-### A — Mystic Waves (Python)
-
-Implements the sequence problem described in the test PDF.
-
-- Input: `t` test cases, each with `x` and `n`
-- Output: total energy after `n` alternating waves `x, -x, x, -x, ...`
-
-See `A/README.md` for a problem summary, algorithm explanation, and run instructions (manual/sample/random tests).
-
----
-
-### B — CargoCraft Fleet (Python)
-
-Implements the propulsion-units problem.
-
-- Input: `t` test cases, each with `n` (total propulsion units)
-- Output: minimum and maximum possible crafts, or `-1` if impossible
-
-See `B/README.md` for the problem summary, core number-theory insight, and instructions for sample and stress tests.
-
----
-
-### C — Frontend Login Page (Vue)
-
-Frontend-only login page with:
-
-- Email and password fields
-- Validation rules from the PDF (email existence, password strength)
-- Hardcoded demo credentials
-- Login success screen with welcome message and logout
-
-See `C/README.md` for setup and run instructions and validation notes.
-
----
 
 ## Quick start
 
@@ -103,3 +67,41 @@ npm install
 npm run dev
 ```
  
+
+
+## Folder overview
+
+### A — Mystic Waves (Python)
+
+Implements the sequence problem described in the test PDF.
+
+- Input: `t` test cases, each with `x` and `n`
+- Output: total energy after `n` alternating waves `x, -x, x, -x, ...`
+
+See `A/README.md` for a problem summary, algorithm explanation, and run instructions (manual/sample/random tests).
+
+---
+
+### B — CargoCraft Fleet (Python)
+
+Implements the propulsion-units problem.
+
+- Input: `t` test cases, each with `n` (total propulsion units)
+- Output: minimum and maximum possible crafts, or `-1` if impossible
+
+See `B/README.md` for the problem summary, core number-theory insight, and instructions for sample and stress tests.
+
+---
+
+### C — Frontend Login Page (Vue)
+
+Frontend-only login page with:
+
+- Email and password fields
+- Validation rules from the PDF (email existence, password strength)
+- Hardcoded demo credentials
+- Login success screen with welcome message and logout
+
+See `C/README.md` for setup and run instructions and validation notes.
+
+---

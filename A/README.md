@@ -35,6 +35,7 @@ python main.py < sample_input.txt
 ### 3) Run using generated test cases
 
 ```bash
+python generate_tests.py
 python main.py < test_case.txt > output_taskA.txt
 ```
 
@@ -45,7 +46,7 @@ This will run sample tests, generate random tests, and execute the program:
 ./run_task.sh
 ```
 
-(If needed, make it executable first: `chmod +x run_taskA.sh`)
+(If needed, make it executable first: `chmod +x run_task.sh`)
 
 
 
