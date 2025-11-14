@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+# Generated test/output files (Tasks A & B)
+A/test_case.txt
+A/output_taskA.txt
+B/test_case.txt
+B/output_taskB.txt
+
+
+node_modules/
+dist/
+.vite/
+
+
+.DS_Store
+Thumbs.db
