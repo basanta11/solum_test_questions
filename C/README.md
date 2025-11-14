@@ -57,7 +57,6 @@ The production output will be generated in `/dist`.
 - Required (must not be empty)
 - Real-time format validation (on blur)
 - Format regex: `^[^\s@]+@[^\s@]+\.[^\s@]+$`
-- Also checks existence in a simulated `users[]` list
 
 ### Password
 
